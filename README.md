@@ -1,12 +1,8 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
+
 # Automata Components Tracker
 
 ## Overview
-This project designs and implements a relational database system for Automata, Inc., a specialty vehicle manufacturer. The database streamlines inventory management, order tracking, and supplier coordination across multiple production departments. Data modeling, SQL implementation, and query development were all completed as part of Penn State's DS 220 – Team Projects on Relational Database Design & Implementation.
+This project designs and implements a relational database system for Automata, Inc., a specialty vehicle manufacturer. The database streamlines inventory management, order tracking, and supplier coordination across multiple production departments. Data modeling, SQL implementation, and query development were all completed.
 
 **Key Objectives:**
 - Design a comprehensive Enhanced Entity-Relationship (EER) model to represent Automata's operational structure.
@@ -18,7 +14,7 @@ This project designs and implements a relational database system for Automata, I
 ## Methodology
 
 ### 1. Data Modeling
-- Developed an Enhanced Entity-Relationship (EER) model capturing all core entities: Departments, Orders, Parts, Inventory, Vehicles, and Suppliers.
+- Developed an Enhanced Entity Relationship (EER) model capturing all core entities: Departments, Orders, Parts, Inventory, Vehicles, and Suppliers.
 - Translated the EER model into a Logical Data Model defining primary keys, foreign keys, and cardinality constraints between all tables.
 
 ### 2. Database Implementation
@@ -85,12 +81,3 @@ This project designs and implements a relational database system for Automata, I
 
 ---
 
-## Team
-| Name | Role |
-|---|---|
-| Brandon Barber | Lead Developer |
-| Michael Ridgeway | Project Manager |
-| Li Zhu | Analyst |
-
-**Course:** DS 220 – Team Projects on Relational Database Design & Implementation
-**Institution:** College of Information Sciences and Technology, Pennsylvania State University
